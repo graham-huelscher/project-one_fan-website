@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Weeknd Albums</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="styles-albums.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-dark black fixed-top">
+            <a class="navbar-brand" href="https://www.theweeknd.com/" target="_blank">
+                <img src="imgs/logo.jpg" class="img-fluid" alt="The Weeknd Logo" style="height: 50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tours.html">Tour Dates</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Albums
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://shop.theweeknd.com/" target="_blank">Store</a>
+                    </li>
+            </div>
+        </nav>
+
+        <div class="row">
+            <h2>The Weeknd's Full Discography</h2>
+        </div>
+
+        <div class="row">
+            <section class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <div class="padding">
+                    <h3>
+                        House of Ballons
+                    </h3>
+                    <div class="container-fade">
+                        <img src="imgs/albums/house-of-balloons.jpg" class="img-fluid image" alt="House of Ballons Album Cover">
+                        <div class="overlay">
+                            <img class="svg" src="imgs/svgs/house-of-balloons.svg" alt="house-of-balloons tracklist">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <div class="padding">
+                    <h3>Thursday</h3>
+                    <div class="container-fade">
+                        <img src="imgs/albums/thursday.jpg" class="img-fluid" alt="Thursday Album Cover">
+                        <div class="overlay">
+                            <img class="svg" id="thursday" src="imgs/svgs/thursday.svg" alt="thursday tracklist">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <div class="padding">
+                    <h3>Echoes of Silence</h3>
+                    <div class="container-fade">
+                        <img src="imgs/albums/echoes-of-silence.jpg" class="img-fluid" alt="Echoes of Silence Album Cover">
+                        <div class="overlay">
+                            <img class="svg" id="echoes" src="imgs/svgs/echoes-of-silence.svg" alt="echoes-of-silence tracklist">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <div class="padding">
+                    <h3>Trilogy</h3>
+                    <div class="container-fade">
+                        <img src="imgs/albums/trilogy.jpg" class="img-fluid" alt="Trilogy Album Cover">
+                        <div class="overlay">
+                            <img class="svg" id="kiss-land" src="imgs/svgs/trilogy.svg" alt="trilogy tracklist">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <div class="padding">
+                    <h3>Kiss Land</h3>
+                    <div class="container-fade">
+                        <img src="imgs/albums/kiss-land.jpg" class="img-fluid" alt="Kiss Land Album Cover">
+                        <div class="overlay">
+                            <img class="svg" id="kiss-land" src="imgs/svgs/kiss-land.svg" alt="kiss-land tracklist">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <div class="padding">
+                    <h3>Beauty Behind the Madness</h3>
+                    <div class="container-fade">
+                        <img src="imgs/albums/beauty-behind-the-madness.jpg" class="img-fluid" alt="Beauty Behind the Madness Album Cover">
+                        <div class="overlay">
+                            <img class="svg" id="beauty" src="imgs/svgs/beauty-behind-the-madness.svg" alt="beauty-behind-the-madness tracklist">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <div class="padding">
+                    <h3>Starboy</h3>
+                    <div class="container-fade">
+                        <img src="imgs/albums/starboy.jpg" class="img-fluid" alt="Starboy Album Cover">
+                        <div class="overlay">
+                            <img class="svg" id="starboy" src="imgs/svgs/starboy.svg" alt="starboy tracklist">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <div class="padding">
+                    <h3>My Dear Melancholy</h3>
+                    <div class="container-fade">
+                        <img src="imgs/albums/my-dear-melancholy.jpg" class="img-fluid" alt="My Dear Melancholy Album Cover">
+                        <div class="overlay">
+                            <img class="svg" id="my-dear" src="imgs/svgs/my-dear-melancholy.svg" alt="my-dear-melancholy tracklist">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="row">
+            <footer class="footer">
+                <div class="container text-center">
+                    <a href="https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ" target="_blank">
+                        <i class="fa fa-spotify"></i>
+                    </a>
+                    <a href="https://soundcloud.com/theweeknd" target="_blank">
+                        <i class="fa fa-soundcloud"></i>
+                    </a>
+                    <a href="https://twitter.com/theweeknd?lang=en" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/theweeknd/?hl=en" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ" target="_blank">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                    <a href="https://www.facebook.com/theweeknd/" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>

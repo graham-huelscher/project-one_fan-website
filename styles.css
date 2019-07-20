@@ -1,0 +1,55 @@
+.main-header, h2{
+  margin:auto;
+  margin-bottom: 50px;
+}
+
+.header {
+  background: url("imgs/header-background.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 625px;
+}
+
+p, h1, h2, section {
+  color:white;
+}
+
+section{
+  padding-bottom:15px;
+}
+body { 
+    background-color: black;
+    padding-top:75px;
+}
+
+.black {
+  background-color: black;
+}
+
+.padding {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  border: solid white 2px;
+  border-radius: 5px;
+}
+.footer {
+  margin: 30px auto;
+  border: solid white 2px;
+  border-radius:5px;
+}
+.footer a {
+  color: #e60000;
+  margin:10px;
+}
+.footer a:hover {
+  color:#d3d3d3;
+}
+
+.red {
+  color: #e60000;
+}
+
+.red:hover {
+  color: #d3d3d3;
+}
+

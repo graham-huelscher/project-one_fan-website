@@ -1,0 +1,57 @@
+.container-fade {
+    position: relative;
+    width: auto;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+  
+  .container-fade:hover .overlay {
+    opacity: 1;
+  }
+  
+  .svg {
+    height:100%;
+    width:100%;
+    position: absolute;  
+  }
+  
+  #thursday {
+    left:-2%;
+  }
+  
+  #echoes {
+    left:-5%;
+  }
+  
+  #kiss-land {
+    left: -5%;
+  }
+  
+  #beauty {
+    left: -8%;
+  }
+  
+  #starboy {
+    left: -15%;
+  }
+  
+  #my-dear {
+    top: -25%;
+  }
