@@ -1,2 +1,2 @@
-# project-one_fan-website
+# project-one_fan-website https://graham-huelscher.github.io/project-one_fan-website/
 The first weekly project completed during my Full Stack Web Development program at BrainStation. PLEASE NOTE: The state of this code is untouched from when I created it during the bootcamp. This was my first exposure to creating something with CSS, HTML and Bootstrap. Unfortunately the video links throughout the website do not work as they do not have permission to be embedded. 
